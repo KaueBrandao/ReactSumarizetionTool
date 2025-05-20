@@ -9,7 +9,7 @@ function App() {
   // Função para enviar o texto para a API e obter o resumo e palavras-chave
   async function obterResumo(texto) {
     try {
-      const response = await fetch("https://web-production-ce336.up.railway.app/resumir", {
+      const response = await fetch("https://spacysumarizertool.onrender.com/resumir", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
